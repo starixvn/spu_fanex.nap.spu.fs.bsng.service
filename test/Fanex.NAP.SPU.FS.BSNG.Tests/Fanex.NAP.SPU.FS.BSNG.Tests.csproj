@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
 
     <IsPackable>false</IsPackable>
   </PropertyGroup>
@@ -22,7 +22,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\" />
+    <ProjectReference Include="..\..\src\Fanex.NAP.SPU.FS.BSNG.JobService\Fanex.NAP.SPU.FS.BSNG.JobService.csproj" />
+    <ProjectReference Include="..\..\src\Fanex.NAP.SPU.FS.BSNG\Fanex.NAP.SPU.FS.BSNG.csproj" />
   </ItemGroup>
 
 </Project>

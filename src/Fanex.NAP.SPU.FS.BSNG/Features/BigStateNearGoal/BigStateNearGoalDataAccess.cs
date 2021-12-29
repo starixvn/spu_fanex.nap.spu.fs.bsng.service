@@ -1,0 +1,51 @@
+﻿namespace Fanex.NAP.SPU.FS.BSNG.Features.BigStateNearGoal
+{
+    using Fanex.Data;
+    using Fanex.Data.Repository;
+    using Fanex.NAP.SPU.FS.BSNG.Features.BigStateNearGoal.Criteria;
+    using Fanex.NAP.SPU.FS.BSNG.Shares;
+    using System.Collections.Generic;
+
+    public interface IBigStateNearGoalDataAccess
+    {
+        IEnumerable<T> PreCondition<T>();
+
+        DataResult Rule(string matchIds);
+
+    }
+
+    public class BigStateNearGoalDataAccess : IBigStateNearGoalDataAccess
+    {
+        readonly IDynamicRepository repository;
+
+        public BigStateNearGoalDataAccess()
+        {
+            repository = new DynamicRepository();
+        }
+
+        public IEnumerable<T> PreCondition<T>()
+        {
+            var criteria = new BigStakeNearGoalPreconditionCriteria();
+
+            using (var db = ObjectDbFactory.CreateInstance(criteria.GetSettingKey()))
+            {
+                return db.Query<T>(criteria);
+            }
+        }
+
+        public DataResult Rule(string matchIds)
+        {
+            var criteria = new BigStakeNearGoalRuleCriteria
+            {
+                MatchIds = matchIds
+            };
+
+            var errorCode = repository.Execute(criteria);
+
+            return new DataResult
+            {
+                ErrorCode = errorCode
+            };
+        }
+    }
+}
