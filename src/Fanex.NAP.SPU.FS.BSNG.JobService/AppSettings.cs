@@ -6,29 +6,29 @@
 
     public interface IAppSettings
     {
-        int Environment { get; }
-
-        string CustomerEvidenceAPI { get; }
+        int Environment { get; }        
 
         string SPName { get; }
+
+        string SentryDsn { get; }
     }
 
     public class AppSettings : IAppSettings
     {
         private readonly IConfiguration configuration;
-        private readonly string environment;
-        private readonly string customerEvidenceAPI;
+        private readonly string environment;        
         private readonly string spName;
+        private readonly string sentryDsn;
 
         public AppSettings(IConfiguration configuration)
         {
             this.configuration = configuration;
 
-            environment = GetValue<string>(nameof(Environment));
-
-            customerEvidenceAPI = GetValue<string>(nameof(CustomerEvidenceAPI));
+            environment = GetValue<string>(nameof(Environment));            
 
             spName = GetValue<string>(nameof(SPName));
+
+            sentryDsn = GetValue<string>("Sentry:Dsn");
         }
 
         public int Environment
@@ -45,11 +45,11 @@
                         return 3;
                 }
             }
-        }
-
-        public string CustomerEvidenceAPI => customerEvidenceAPI;
+        }        
 
         public string SPName => spName;
+
+        public string SentryDsn => sentryDsn;
 
         public T GetValue<T>(string key)
         {

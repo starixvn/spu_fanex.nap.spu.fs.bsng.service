@@ -1,5 +1,6 @@
 ﻿namespace Fanex.NAP.SPU.FS.BSNG.JobService.Services
 {
+    using Fanex.Logging;
     using Fanex.NAP.SPU.FS.BSNG.Features.BigStateNearGoal;
     using Fanex.NAP.SPU.FS.BSNG.Features.FraudCase;
     using Sentry;
@@ -40,7 +41,7 @@
                 if (isActiveFraudCase)
                 {
                     JobRun();
-                }
+                }                
             }
             catch (System.Exception ex)
             {

@@ -2,6 +2,8 @@ namespace Fanex.NAP.SPU.FS.BSNG.JobService
 {
     using Fanex.Data;
     using Fanex.Data.SqlServer;
+    using Fanex.Logging;
+    using Fanex.Logging.Sentry;
     using Fanex.NAP.SPU.FS.BSNG.JobService.Services;
     using HealthChecks.UI.Client;
     using Microsoft.AspNetCore.Builder;
@@ -11,6 +13,8 @@ namespace Fanex.NAP.SPU.FS.BSNG.JobService
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Extensions.Hosting;
     using Microsoft.OpenApi.Models;
+    using Sentry;
+    using System.Collections.Generic;
     using System.Linq;
 
     public class Startup
@@ -39,6 +43,8 @@ namespace Fanex.NAP.SPU.FS.BSNG.JobService
 
             services.RegisterService();
 
+            RegisterLogging(appSettings);
+
             FanexDataConfig(appSettings);
         }
 
@@ -51,9 +57,7 @@ namespace Fanex.NAP.SPU.FS.BSNG.JobService
             }
 
             app.UseSwagger();
-            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Fanex.NAP.SPU.FS.BSNG.JobService v1"));
-
-            app.UseHttpsRedirection();
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Fanex.NAP.SPU.FS.BSNG.JobService v1"));            
 
             app.UseRouting();
 
@@ -90,6 +94,19 @@ namespace Fanex.NAP.SPU.FS.BSNG.JobService
               .WithSqlServer()
               .UseDefaultDbSettingProvider(resourcePath: appSettings.SPName)
               .Run();
+        }
+
+        private void RegisterLogging(IAppSettings appSettings)
+        {
+            LogManager
+                .SetDefaultLogCategory("")
+                .Use(new List<ILogEngine>
+                {
+                     new SentryLogging(new SentryEngineOptions {
+                        Dsn = new Dsn(appSettings.SentryDsn),
+                        Environment = "DEV"
+                     })
+                });
         }
     }
 }
