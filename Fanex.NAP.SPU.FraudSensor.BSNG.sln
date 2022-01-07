@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fanex.NAP.SPU.FS.BSNG.JobService", "src\Fanex.NAP.SPU.FS.BSNG.JobService\Fanex.NAP.SPU.FS.BSNG.JobService.csproj", "{4E779B43-DB12-430F-894F-0612F571858D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fanex.NAP.SPU.FS.BSNG", "src\Fanex.NAP.SPU.FS.BSNG\Fanex.NAP.SPU.FS.BSNG.csproj", "{123C9448-2978-4D83-86CB-A826C1837DAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fanex.NAP.SPU.FS.BSNG.Tests", "test\Fanex.NAP.SPU.FS.BSNG.Tests\Fanex.NAP.SPU.FS.BSNG.Tests.csproj", "{4BA7B67B-FAFB-48D2-BD36-4454DB1822B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E779B43-DB12-430F-894F-0612F571858D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E779B43-DB12-430F-894F-0612F571858D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E779B43-DB12-430F-894F-0612F571858D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E779B43-DB12-430F-894F-0612F571858D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{123C9448-2978-4D83-86CB-A826C1837DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{123C9448-2978-4D83-86CB-A826C1837DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{123C9448-2978-4D83-86CB-A826C1837DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{123C9448-2978-4D83-86CB-A826C1837DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BA7B67B-FAFB-48D2-BD36-4454DB1822B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BA7B67B-FAFB-48D2-BD36-4454DB1822B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BA7B67B-FAFB-48D2-BD36-4454DB1822B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BA7B67B-FAFB-48D2-BD36-4454DB1822B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0EFCA64D-4F7A-41DA-87B6-58DC08CD7EFA}
+	EndGlobalSection
+EndGlobal

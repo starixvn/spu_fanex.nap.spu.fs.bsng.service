@@ -1,0 +1,5 @@
+
+include:
+  - project: "ci/repos-ci/spu_nap_spu_fs_bsng_job_service"
+    ref: master
+    file: "gitlab-ci.yml"
