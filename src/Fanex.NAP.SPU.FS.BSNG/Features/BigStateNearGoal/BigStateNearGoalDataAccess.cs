@@ -1,7 +1,6 @@
 ﻿namespace Fanex.NAP.SPU.FS.BSNG.Features.BigStateNearGoal
 {
-    using Fanex.Data;
-    using Fanex.Data.Repository;
+    using Fanex.NAP.SPU.FS.BSNG.Core.Repository;
     using Fanex.NAP.SPU.FS.BSNG.Features.BigStateNearGoal.Criteria;
     using Fanex.NAP.SPU.FS.BSNG.Shares;
     using System.Collections.Generic;
@@ -16,21 +15,18 @@
 
     public class BigStateNearGoalDataAccess : IBigStateNearGoalDataAccess
     {
-        readonly IDynamicRepository repository;
+        private readonly IRepositoryService _repository;
 
-        public BigStateNearGoalDataAccess()
+        public BigStateNearGoalDataAccess(IRepositoryService repository)
         {
-            repository = new DynamicRepository();
+            _repository = repository;
         }
 
         public IEnumerable<T> PreCondition<T>()
         {
             var criteria = new BigStakeNearGoalPreconditionCriteria();
 
-            using (var db = ObjectDbFactory.CreateInstance(criteria.GetSettingKey()))
-            {
-                return db.Query<T>(criteria);
-            }
+            return _repository.FetchResult<T>(criteria);
         }
 
         public DataResult Rule(string matchIds)
@@ -40,7 +36,7 @@
                 MatchIds = matchIds
             };
 
-            var errorCode = repository.Execute(criteria);
+            var errorCode = _repository.Execute(criteria);
 
             return new DataResult
             {

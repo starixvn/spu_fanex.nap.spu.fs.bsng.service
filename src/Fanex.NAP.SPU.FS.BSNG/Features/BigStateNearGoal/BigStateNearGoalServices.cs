@@ -1,7 +1,7 @@
 ﻿namespace Fanex.NAP.SPU.FS.BSNG.Features.BigStateNearGoal
 {
     using Fanex.Logging.Extensions;
-    using Fanex.Logging.Extensions.Database;
+    using Fanex.NAP.SPU.FS.BSNG.Core.Logging;
     using Fanex.NAP.SPU.FS.BSNG.Features.BigStateNearGoal.Entities;
     using Fanex.NAP.SPU.FS.BSNG.Shares;
     using System;
@@ -74,9 +74,7 @@
             }
             catch (Exception ex)
             {
-                var logMessage = new LogMessage(ex.Message)
-                        .AddSection("Data Info", DatabaseInfoGetters.GetDbExceptionInfo(ex))
-                        .AddSection("Exception Info", CommonInfoGetters.GetExceptionInfo(ex)).ToString();
+                var logMessage = ex.GetLogMessage();
 
                 return new DataResult
                 {

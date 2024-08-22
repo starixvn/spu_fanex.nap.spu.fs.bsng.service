@@ -1,7 +1,6 @@
 namespace Fanex.NAP.SPU.FS.BSNG.JobService
 {
     using Fanex.Data;
-    using Fanex.Data.SqlServer;
     using Fanex.Logging;
     using Fanex.Logging.Sentry;
     using Fanex.NAP.SPU.FS.BSNG.JobService.Services;
@@ -15,7 +14,6 @@ namespace Fanex.NAP.SPU.FS.BSNG.JobService
     using Microsoft.OpenApi.Models;
     using Sentry;
     using System.Collections.Generic;
-    using System.Linq;
 
     public class Startup
     {
@@ -43,9 +41,9 @@ namespace Fanex.NAP.SPU.FS.BSNG.JobService
 
             services.RegisterService();
 
-            RegisterLogging(appSettings);
+            FanexDataConfig(services);
 
-            FanexDataConfig(appSettings);
+            RegisterLogging(appSettings);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -53,11 +51,11 @@ namespace Fanex.NAP.SPU.FS.BSNG.JobService
         {
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();               
+                app.UseDeveloperExceptionPage();
             }
 
             app.UseSwagger();
-            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Fanex.NAP.SPU.FS.BSNG.JobService v1"));            
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Fanex.NAP.SPU.FS.BSNG.JobService v1"));
 
             app.UseRouting();
 
@@ -74,26 +72,10 @@ namespace Fanex.NAP.SPU.FS.BSNG.JobService
                 endpoints.MapControllers();
             });
         }
-       
-        private void FanexDataConfig(IAppSettings appSettings)
+
+        private void FanexDataConfig(IServiceCollection services)
         {
-            var connections = Configuration
-                                  .GetSection("Connections")
-                                  .GetChildren()
-                                  .AsEnumerable()
-                                  .ToDictionary(
-                                           x => x.GetValue<string>("Name"),
-                                           y => new ConnectionConfiguration(y.GetValue<string>("Name"), y.GetValue<string>("ConnectionString"), y.GetValue<string>("ProviderName"))
-                                   );
-
-
-
-            DbSettingProviderManager
-              .StartNewSession()
-              .Use(connections)
-              .WithSqlServer()
-              .UseDefaultDbSettingProvider(resourcePath: appSettings.SPName)
-              .Run();
+            services.AddFanexData(Configuration);
         }
 
         private void RegisterLogging(IAppSettings appSettings)

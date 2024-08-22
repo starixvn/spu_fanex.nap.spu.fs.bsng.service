@@ -1,5 +1,6 @@
 ﻿namespace Fanex.NAP.SPU.FS.BSNG.JobService.Services
 {
+    using Fanex.NAP.SPU.FS.BSNG.Core.Repository;
     using Fanex.NAP.SPU.FS.BSNG.Features.BigStateNearGoal;
     using Fanex.NAP.SPU.FS.BSNG.Features.FraudCase;
     using Microsoft.Extensions.DependencyInjection;
@@ -14,6 +15,7 @@
 
         private static void RegisterBaseServices(this IServiceCollection services)
         {
+            services.AddSingleton<IRepositoryService, RepositoryService>();
             services.AddSingleton<IFraudCaseDataAccess, FraudCaseDataAccess>();
             services.AddSingleton<IFraudCaseServices, FraudCaseServices>();
         }
