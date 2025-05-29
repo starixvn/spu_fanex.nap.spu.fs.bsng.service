@@ -19,7 +19,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="App_Data\UAT\" />
+    <Folder Include="App_Data\KLDR\" />
+    <Folder Include="App_Data\LOCAL\" />
     <Folder Include="App_Data\PROD\" />
   </ItemGroup>
 
@@ -28,13 +29,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="App_Data\KLDR\SPNames.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="App_Data\LOCAL\SPNames.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="App_Data\PROD\SPNames.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="App_Data\UAT\SPNames.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
