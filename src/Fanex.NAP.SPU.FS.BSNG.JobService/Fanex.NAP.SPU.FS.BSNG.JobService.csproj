@@ -28,6 +28,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="App_Data\KLDR\SPNames.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="App_Data\LOCAL\SPNames.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
