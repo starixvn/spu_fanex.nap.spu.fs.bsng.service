@@ -3,19 +3,16 @@
     using Fanex.Logging;
     using Fanex.NAP.SPU.FS.BSNG.JobService.Services;
     using Microsoft.AspNetCore.Mvc;
-    using Sentry;   
     using System.Threading.Tasks;
 
     [ApiController]
     [Route("api/job")]
     public class JobController : ControllerBase
     {
-        private readonly ISentryClient sentryClient;
         private readonly IBigStateNearGoalJobService bigStateNearGoalJobService;
 
-        public JobController(ISentryClient sentryClient, IBigStateNearGoalJobService bigStateNearGoalJobService)
+        public JobController(IBigStateNearGoalJobService bigStateNearGoalJobService)
         {
-            this.sentryClient = sentryClient;
             this.bigStateNearGoalJobService = bigStateNearGoalJobService;
         }
 

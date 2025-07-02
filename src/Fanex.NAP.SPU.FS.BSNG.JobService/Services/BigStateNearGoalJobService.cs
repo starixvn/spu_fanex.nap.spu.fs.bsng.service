@@ -3,7 +3,6 @@
     using Fanex.Logging;
     using Fanex.NAP.SPU.FS.BSNG.Features.BigStateNearGoal;
     using Fanex.NAP.SPU.FS.BSNG.Features.FraudCase;
-    using Sentry;
     using System.Linq;
     using System.Threading.Tasks;
 
@@ -14,20 +13,17 @@
 
     public class BigStateNearGoalJobService : IBigStateNearGoalJobService
     {
-        private readonly ISentryClient sentryClient;
         private readonly BigStateNearGoalServices bigStateNearGoalService;
         private readonly IFraudCaseServices fraudCaseService;
         private readonly IAppSettings appSettings;
         private readonly int fraudCaseId = 1;
 
         public BigStateNearGoalJobService(
-            ISentryClient sentryClient,
             IAppSettings appSettings,
             IFraudCaseServices fraudCaseService,
             BigStateNearGoalServices bigStateNearGoalService)
         {
             this.bigStateNearGoalService = bigStateNearGoalService;
-            this.sentryClient = sentryClient;
             this.fraudCaseService = fraudCaseService;
             this.appSettings = appSettings;
         }
@@ -45,7 +41,7 @@
             }
             catch (System.Exception ex)
             {
-                sentryClient.CaptureException(ex);
+                LogService.Error($"Error in {nameof(BigStateNearGoalJobService)}: {ex.Message}", ex);
 
                 return Task.FromResult(false);
             }
@@ -66,7 +62,7 @@
                 {
                     if (result.ErrorCode == -100)
                     {
-                        sentryClient.CaptureMessage(result.ErrorMessage, Sentry.Protocol.SentryLevel.Error);
+                        LogService.Error(result.ErrorMessage);
                     }
                 }
             }

@@ -1,12 +1,10 @@
 namespace Fanex.NAP.SPU.FS.BSNG.JobService
 {
-    using Microsoft.AspNetCore;
+    using Fanex.Logging;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.Hosting;
-    using Sentry;
     using System;
-    using System.IO;
 
     public static class Program
     {
@@ -15,12 +13,13 @@ namespace Fanex.NAP.SPU.FS.BSNG.JobService
             try
             {
                 var host = CreateHostBuilder(args).Build();
-                SentrySdk.CaptureMessage(string.Format("{0} has been started at {1}", typeof(Program).FullName, DateTime.Now));
+                LogService.Info(string.Format("{0} has been started at {1}", typeof(Program).FullName, DateTime.Now));
+                LogService.Error(string.Format("{0} has been started at {1}", typeof(Program).FullName, DateTime.Now));
                 host.Run();
             }
             catch (Exception ex)
             {
-                SentrySdk.CaptureException(ex);
+                LogService.Error(string.Format("{0} has been started at {1} fail", typeof(Program).FullName, DateTime.Now), ex);
             }
         }       
 
@@ -41,7 +40,6 @@ namespace Fanex.NAP.SPU.FS.BSNG.JobService
                     webBuilder.UseUrls("http://*:5000");
 
                     webBuilder
-                    .UseSentry()
                     .UseStartup<Startup>();
                 });
         }
