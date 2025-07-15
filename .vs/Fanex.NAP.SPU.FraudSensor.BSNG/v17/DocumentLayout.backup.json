@@ -1,0 +1,342 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{123C9448-2978-4D83-86CB-A826C1837DAB}|src\\Fanex.NAP.SPU.FS.BSNG\\Fanex.NAP.SPU.FS.BSNG.csproj|f:\\working\\source\\websource\\fanex.nap.spu.fs.bsng.service\\src\\fanex.nap.spu.fs.bsng\\features\\bigstateneargoal\\bigstateneargoaldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{123C9448-2978-4D83-86CB-A826C1837DAB}|src\\Fanex.NAP.SPU.FS.BSNG\\Fanex.NAP.SPU.FS.BSNG.csproj|solutionrelative:src\\fanex.nap.spu.fs.bsng\\features\\bigstateneargoal\\bigstateneargoaldataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E779B43-DB12-430F-894F-0612F571858D}|src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj|f:\\working\\source\\websource\\fanex.nap.spu.fs.bsng.service\\src\\fanex.nap.spu.fs.bsng.jobservice\\services\\bigstateneargoaljobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E779B43-DB12-430F-894F-0612F571858D}|src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj|solutionrelative:src\\fanex.nap.spu.fs.bsng.jobservice\\services\\bigstateneargoaljobservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{123C9448-2978-4D83-86CB-A826C1837DAB}|src\\Fanex.NAP.SPU.FS.BSNG\\Fanex.NAP.SPU.FS.BSNG.csproj|f:\\working\\source\\websource\\fanex.nap.spu.fs.bsng.service\\src\\fanex.nap.spu.fs.bsng\\features\\fraudcase\\fraudcasedataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{123C9448-2978-4D83-86CB-A826C1837DAB}|src\\Fanex.NAP.SPU.FS.BSNG\\Fanex.NAP.SPU.FS.BSNG.csproj|solutionrelative:src\\fanex.nap.spu.fs.bsng\\features\\fraudcase\\fraudcasedataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{123C9448-2978-4D83-86CB-A826C1837DAB}|src\\Fanex.NAP.SPU.FS.BSNG\\Fanex.NAP.SPU.FS.BSNG.csproj|f:\\working\\source\\websource\\fanex.nap.spu.fs.bsng.service\\src\\fanex.nap.spu.fs.bsng\\features\\fraudcase\\criteria\\getfraudcasecriteria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{123C9448-2978-4D83-86CB-A826C1837DAB}|src\\Fanex.NAP.SPU.FS.BSNG\\Fanex.NAP.SPU.FS.BSNG.csproj|solutionrelative:src\\fanex.nap.spu.fs.bsng\\features\\fraudcase\\criteria\\getfraudcasecriteria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E779B43-DB12-430F-894F-0612F571858D}|src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj|f:\\working\\source\\websource\\fanex.nap.spu.fs.bsng.service\\src\\fanex.nap.spu.fs.bsng.jobservice\\controllers\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E779B43-DB12-430F-894F-0612F571858D}|src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj|solutionrelative:src\\fanex.nap.spu.fs.bsng.jobservice\\controllers\\jobcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E779B43-DB12-430F-894F-0612F571858D}|src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj|f:\\working\\source\\websource\\fanex.nap.spu.fs.bsng.service\\src\\fanex.nap.spu.fs.bsng.jobservice\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E779B43-DB12-430F-894F-0612F571858D}|src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj|solutionrelative:src\\fanex.nap.spu.fs.bsng.jobservice\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E779B43-DB12-430F-894F-0612F571858D}|src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj|f:\\working\\source\\websource\\fanex.nap.spu.fs.bsng.service\\src\\fanex.nap.spu.fs.bsng.jobservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E779B43-DB12-430F-894F-0612F571858D}|src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj|solutionrelative:src\\fanex.nap.spu.fs.bsng.jobservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E779B43-DB12-430F-894F-0612F571858D}|src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj|f:\\working\\source\\websource\\fanex.nap.spu.fs.bsng.service\\src\\fanex.nap.spu.fs.bsng.jobservice\\app_data\\kldr\\spnames.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4E779B43-DB12-430F-894F-0612F571858D}|src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj|solutionrelative:src\\fanex.nap.spu.fs.bsng.jobservice\\app_data\\kldr\\spnames.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E779B43-DB12-430F-894F-0612F571858D}|src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj|f:\\working\\source\\websource\\fanex.nap.spu.fs.bsng.service\\src\\fanex.nap.spu.fs.bsng.jobservice\\appsettings.kldr.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4E779B43-DB12-430F-894F-0612F571858D}|src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj|solutionrelative:src\\fanex.nap.spu.fs.bsng.jobservice\\appsettings.kldr.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E779B43-DB12-430F-894F-0612F571858D}|src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj|f:\\working\\source\\websource\\fanex.nap.spu.fs.bsng.service\\src\\fanex.nap.spu.fs.bsng.jobservice\\services\\initservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E779B43-DB12-430F-894F-0612F571858D}|src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj|solutionrelative:src\\fanex.nap.spu.fs.bsng.jobservice\\services\\initservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E779B43-DB12-430F-894F-0612F571858D}|src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj|f:\\working\\source\\websource\\fanex.nap.spu.fs.bsng.service\\src\\fanex.nap.spu.fs.bsng.jobservice\\app_data\\uat\\spnames.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4E779B43-DB12-430F-894F-0612F571858D}|src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj|solutionrelative:src\\fanex.nap.spu.fs.bsng.jobservice\\app_data\\uat\\spnames.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E779B43-DB12-430F-894F-0612F571858D}|src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj|f:\\working\\source\\websource\\fanex.nap.spu.fs.bsng.service\\src\\fanex.nap.spu.fs.bsng.jobservice\\app_data\\prod\\spnames.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4E779B43-DB12-430F-894F-0612F571858D}|src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj|solutionrelative:src\\fanex.nap.spu.fs.bsng.jobservice\\app_data\\prod\\spnames.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E779B43-DB12-430F-894F-0612F571858D}|src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj|f:\\working\\source\\websource\\fanex.nap.spu.fs.bsng.service\\src\\fanex.nap.spu.fs.bsng.jobservice\\app_data\\local\\spnames.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4E779B43-DB12-430F-894F-0612F571858D}|src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj|solutionrelative:src\\fanex.nap.spu.fs.bsng.jobservice\\app_data\\local\\spnames.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E779B43-DB12-430F-894F-0612F571858D}|src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj|f:\\working\\source\\websource\\fanex.nap.spu.fs.bsng.service\\src\\fanex.nap.spu.fs.bsng.jobservice\\appsettings.prod.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4E779B43-DB12-430F-894F-0612F571858D}|src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj|solutionrelative:src\\fanex.nap.spu.fs.bsng.jobservice\\appsettings.prod.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E779B43-DB12-430F-894F-0612F571858D}|src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj|f:\\working\\source\\websource\\fanex.nap.spu.fs.bsng.service\\src\\fanex.nap.spu.fs.bsng.jobservice\\appsettings.local.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4E779B43-DB12-430F-894F-0612F571858D}|src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj|solutionrelative:src\\fanex.nap.spu.fs.bsng.jobservice\\appsettings.local.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E779B43-DB12-430F-894F-0612F571858D}|src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj|f:\\working\\source\\websource\\fanex.nap.spu.fs.bsng.service\\src\\fanex.nap.spu.fs.bsng.jobservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4E779B43-DB12-430F-894F-0612F571858D}|src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj|solutionrelative:src\\fanex.nap.spu.fs.bsng.jobservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E779B43-DB12-430F-894F-0612F571858D}|src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj|f:\\working\\source\\websource\\fanex.nap.spu.fs.bsng.service\\src\\fanex.nap.spu.fs.bsng.jobservice\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4E779B43-DB12-430F-894F-0612F571858D}|src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj|solutionrelative:src\\fanex.nap.spu.fs.bsng.jobservice\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Working\\Source\\WebSource\\fanex.nap.spu.virtualsetting.service\\src\\Fanex.NAP.SPU.VR.JobService\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E779B43-DB12-430F-894F-0612F571858D}|src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj|f:\\working\\source\\websource\\fanex.nap.spu.fs.bsng.service\\src\\fanex.nap.spu.fs.bsng.jobservice\\fanex.nap.spu.fs.bsng.jobservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4E779B43-DB12-430F-894F-0612F571858D}|src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj|solutionrelative:src\\fanex.nap.spu.fs.bsng.jobservice\\fanex.nap.spu.fs.bsng.jobservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BigStateNearGoalJobService.cs",
+              "DocumentMoniker": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Services\\BigStateNearGoalJobService.cs",
+              "RelativeDocumentMoniker": "src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Services\\BigStateNearGoalJobService.cs",
+              "ToolTip": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Services\\BigStateNearGoalJobService.cs",
+              "RelativeToolTip": "src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Services\\BigStateNearGoalJobService.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAYwDkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T08:50:35.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JobController.cs",
+              "DocumentMoniker": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Controllers\\JobController.cs",
+              "RelativeDocumentMoniker": "src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Controllers\\JobController.cs",
+              "ToolTip": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Controllers\\JobController.cs",
+              "RelativeToolTip": "src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Controllers\\JobController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAIA7wBUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T08:49:49.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Program.cs",
+              "ToolTip": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Program.cs",
+              "RelativeToolTip": "src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T08:48:54.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BigStateNearGoalDataAccess.cs",
+              "DocumentMoniker": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG\\Features\\BigStateNearGoal\\BigStateNearGoalDataAccess.cs",
+              "RelativeDocumentMoniker": "src\\Fanex.NAP.SPU.FS.BSNG\\Features\\BigStateNearGoal\\BigStateNearGoalDataAccess.cs",
+              "ToolTip": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG\\Features\\BigStateNearGoal\\BigStateNearGoalDataAccess.cs",
+              "RelativeToolTip": "src\\Fanex.NAP.SPU.FS.BSNG\\Features\\BigStateNearGoal\\BigStateNearGoalDataAccess.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAYwCcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T08:48:18.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FraudCaseDataAccess.cs",
+              "DocumentMoniker": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG\\Features\\FraudCase\\FraudCaseDataAccess.cs",
+              "RelativeDocumentMoniker": "src\\Fanex.NAP.SPU.FS.BSNG\\Features\\FraudCase\\FraudCaseDataAccess.cs",
+              "ToolTip": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG\\Features\\FraudCase\\FraudCaseDataAccess.cs",
+              "RelativeToolTip": "src\\Fanex.NAP.SPU.FS.BSNG\\Features\\FraudCase\\FraudCaseDataAccess.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAzwBkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T08:47:43.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetFraudCaseCriteria.cs",
+              "DocumentMoniker": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG\\Features\\FraudCase\\Criteria\\GetFraudCaseCriteria.cs",
+              "RelativeDocumentMoniker": "src\\Fanex.NAP.SPU.FS.BSNG\\Features\\FraudCase\\Criteria\\GetFraudCaseCriteria.cs",
+              "ToolTip": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG\\Features\\FraudCase\\Criteria\\GetFraudCaseCriteria.cs",
+              "RelativeToolTip": "src\\Fanex.NAP.SPU.FS.BSNG\\Features\\FraudCase\\Criteria\\GetFraudCaseCriteria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T08:47:36.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "InitService.cs",
+              "DocumentMoniker": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Services\\InitService.cs",
+              "RelativeDocumentMoniker": "src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Services\\InitService.cs",
+              "ToolTip": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Services\\InitService.cs",
+              "RelativeToolTip": "src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Services\\InitService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T08:47:08.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SPNames.xml",
+              "DocumentMoniker": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG.JobService\\App_Data\\KLDR\\SPNames.xml",
+              "RelativeDocumentMoniker": "src\\Fanex.NAP.SPU.FS.BSNG.JobService\\App_Data\\KLDR\\SPNames.xml",
+              "ToolTip": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG.JobService\\App_Data\\KLDR\\SPNames.xml",
+              "RelativeToolTip": "src\\Fanex.NAP.SPU.FS.BSNG.JobService\\App_Data\\KLDR\\SPNames.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-06-12T08:46:10.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.KLDR.json",
+              "DocumentMoniker": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG.JobService\\appsettings.KLDR.json",
+              "RelativeDocumentMoniker": "src\\Fanex.NAP.SPU.FS.BSNG.JobService\\appsettings.KLDR.json",
+              "ToolTip": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG.JobService\\appsettings.KLDR.json",
+              "RelativeToolTip": "src\\Fanex.NAP.SPU.FS.BSNG.JobService\\appsettings.KLDR.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-12T08:45:26.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SPNames.xml",
+              "DocumentMoniker": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG.JobService\\App_Data\\UAT\\SPNames.xml",
+              "RelativeDocumentMoniker": "src\\Fanex.NAP.SPU.FS.BSNG.JobService\\App_Data\\UAT\\SPNames.xml",
+              "ToolTip": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG.JobService\\App_Data\\UAT\\SPNames.xml",
+              "RelativeToolTip": "src\\Fanex.NAP.SPU.FS.BSNG.JobService\\App_Data\\UAT\\SPNames.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-06-11T10:02:39.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SPNames.xml",
+              "DocumentMoniker": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG.JobService\\App_Data\\PROD\\SPNames.xml",
+              "RelativeDocumentMoniker": "src\\Fanex.NAP.SPU.FS.BSNG.JobService\\App_Data\\PROD\\SPNames.xml",
+              "ToolTip": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG.JobService\\App_Data\\PROD\\SPNames.xml",
+              "RelativeToolTip": "src\\Fanex.NAP.SPU.FS.BSNG.JobService\\App_Data\\PROD\\SPNames.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-06-11T10:02:37.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Startup.cs",
+              "RelativeDocumentMoniker": "src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Startup.cs",
+              "ToolTip": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Startup.cs",
+              "RelativeToolTip": "src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Startup.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAUwEgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T09:01:09.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.virtualsetting.service\\src\\Fanex.NAP.SPU.VR.JobService\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\fanex.nap.spu.virtualsetting.service\\src\\Fanex.NAP.SPU.VR.JobService\\appsettings.json",
+              "ToolTip": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.virtualsetting.service\\src\\Fanex.NAP.SPU.VR.JobService\\appsettings.json",
+              "RelativeToolTip": "..\\fanex.nap.spu.virtualsetting.service\\src\\Fanex.NAP.SPU.VR.JobService\\appsettings.json",
+              "ViewState": "AgIAAEkAAAAAAAAAAEBVwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-11T10:41:28.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SPNames.xml",
+              "DocumentMoniker": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG.JobService\\App_Data\\LOCAL\\SPNames.xml",
+              "RelativeDocumentMoniker": "src\\Fanex.NAP.SPU.FS.BSNG.JobService\\App_Data\\LOCAL\\SPNames.xml",
+              "ToolTip": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG.JobService\\App_Data\\LOCAL\\SPNames.xml",
+              "RelativeToolTip": "src\\Fanex.NAP.SPU.FS.BSNG.JobService\\App_Data\\LOCAL\\SPNames.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-06-11T10:02:35.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.PROD.json",
+              "DocumentMoniker": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG.JobService\\appsettings.PROD.json",
+              "RelativeDocumentMoniker": "src\\Fanex.NAP.SPU.FS.BSNG.JobService\\appsettings.PROD.json",
+              "ToolTip": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG.JobService\\appsettings.PROD.json",
+              "RelativeToolTip": "src\\Fanex.NAP.SPU.FS.BSNG.JobService\\appsettings.PROD.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-11T10:01:45.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.LOCAL.json",
+              "DocumentMoniker": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG.JobService\\appsettings.LOCAL.json",
+              "RelativeDocumentMoniker": "src\\Fanex.NAP.SPU.FS.BSNG.JobService\\appsettings.LOCAL.json",
+              "ToolTip": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG.JobService\\appsettings.LOCAL.json",
+              "RelativeToolTip": "src\\Fanex.NAP.SPU.FS.BSNG.JobService\\appsettings.LOCAL.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-11T10:01:43.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG.JobService\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Fanex.NAP.SPU.FS.BSNG.JobService\\appsettings.json",
+              "ToolTip": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG.JobService\\appsettings.json",
+              "RelativeToolTip": "src\\Fanex.NAP.SPU.FS.BSNG.JobService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-11T09:58:53.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Fanex.NAP.SPU.FS.BSNG.JobService.csproj",
+              "DocumentMoniker": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj",
+              "RelativeDocumentMoniker": "src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj",
+              "ToolTip": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj",
+              "RelativeToolTip": "src\\Fanex.NAP.SPU.FS.BSNG.JobService\\Fanex.NAP.SPU.FS.BSNG.JobService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-11T09:01:14.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG.JobService\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "src\\Fanex.NAP.SPU.FS.BSNG.JobService\\appsettings.Development.json",
+              "ToolTip": "F:\\Working\\Source\\WebSource\\fanex.nap.spu.fs.bsng.service\\src\\Fanex.NAP.SPU.FS.BSNG.JobService\\appsettings.Development.json",
+              "RelativeToolTip": "src\\Fanex.NAP.SPU.FS.BSNG.JobService\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-11T10:48:40Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
