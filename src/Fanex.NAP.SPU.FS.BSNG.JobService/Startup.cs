@@ -2,7 +2,6 @@ namespace Fanex.NAP.SPU.FS.BSNG.JobService
 {
     using Fanex.Data;
     using Fanex.Data.SqlServer;
-    using Fanex.Logging;
     using Fanex.Logging.Sentry.RavenClient;
     using Fanex.NAP.SPU.FS.BSNG.JobService.Services;
     using HealthChecks.UI.Client;
@@ -13,7 +12,6 @@ namespace Fanex.NAP.SPU.FS.BSNG.JobService
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Extensions.Hosting;
     using Microsoft.OpenApi.Models;
-    using System.Collections.Generic;
 
     public class Startup
     {
